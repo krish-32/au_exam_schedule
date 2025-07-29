@@ -37,7 +37,11 @@ Pass an array of PDF buffers (hall ticket files) to the `getStudentInfo` functio
 // 'files' must be an array of { buffer: <Buffer> } objects
 const studentInfo = await schedule.getStudentInfo(files);
 console.log(studentInfo);
+```
 
+### Output:
+
+```js
 // Returns an object like:
 [
   {
@@ -66,7 +70,11 @@ Pass an array of PDF buffers (exam schedule files) to the `getExamSchedule` func
 // 'files' must be an array of { buffer: <Buffer> } objects
 const examInfo = await schedule.getExamSchedule(files);
 console.log(examInfo);
+```
 
+### Output:
+
+```js
 // Returns an object like:
 {
   examDates: [ /* date list */ ],
