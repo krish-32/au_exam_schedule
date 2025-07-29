@@ -1,5 +1,7 @@
 # 📘 au_exam_schedule
 
+Check out the package on [npm](https://www.npmjs.com/package/au_exam_schedule).
+
 `au_exam_schedule` is a Node.js package designed to extract student details and exam schedules from **Anna University** hall ticket PDFs and exam schedule PDFs. It simplifies the process of parsing large volumes of academic PDF data into usable JavaScript objects.
 
 ---
